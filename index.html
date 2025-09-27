@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Girl's Fashion Boutique</title>
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+    <div class="container">
+      <a class="navbar-brand" href="#">🌸 TrendyThreads</a>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero text-center py-5 text-white">
+    <h1 class="display-5 fw-bold">Discover the Latest in Girl's Fashion</h1>
+    <p class="lead">Stylish, Affordable & Trending</p>
+  </header>
+
+  <!-- Products Section -->
+  <section class="container py-5">
+    <div class="row" id="products-list">
+      <!-- JS will inject cards here -->
+    </div>
+  </section>
+
+  <!-- Product Modal -->
+  <div
+    class="modal fade"
+    id="productModal"
+    tabindex="-1"
+    aria-labelledby="productModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="productModalLabel">Product Details</h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="modal-body text-center">
+          <img
+            id="modalImage"
+            src=""
+            alt="Product Image"
+            class="img-fluid mb-3 rounded"
+            style="max-height: 400px; object-fit: cover"
+          />
+          <h4 id="modalPrice"></h4>
+          <p id="modalDescription"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    &copy; 2025 TrendyThreads | All rights reserved.
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
