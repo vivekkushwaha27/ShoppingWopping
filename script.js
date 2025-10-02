@@ -1,6 +1,6 @@
 const girlClothes = [
   {
-    imageUrl: "/images/0.jpg",
+    imageUrl: "/images/zero.jpg",
     price: "₹250",
     description: "Stylish suit and pant combo.",
   },
