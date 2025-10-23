@@ -1,106 +1,95 @@
 const girlClothes = [
   {
-    imageUrl: "/images/zero.jpg",
-    price: "₹250",
-    description: "Stylish suit and pant combo.",
-  },
-  {
-    imageUrl: "/images/1.jpg",
+    imageUrl: "/images/1.webp",
     price: "₹255",
     description: "Stylish suit and pant combo.",
   },
   {
-    imageUrl: "/images/2.jpg",
+    imageUrl: "/images/2.webp",
     price: "₹260",
     description: "Stylish suit and pant combo.",
   },
   {
-    imageUrl: "/images/3.jpg",
+    imageUrl: "/images/3.webp",
     price: "₹265",
     description: "Stylish suit and pant combo.",
   },
   {
-    imageUrl: "/images/4.jpg",
+    imageUrl: "/images/4.webp",
     price: "₹270",
     description: "Stylish suit and pant combo.",
   },
   {
-    imageUrl: "/images/5.jpg",
+    imageUrl: "/images/5.webp",
     price: "₹275",
     description: "Stylish suit and pant combo.",
   },
   {
-    imageUrl: "/images/6.jpg",
+    imageUrl: "/images/6.webp",
     price: "₹280",
     description: "Stylish suit and pant combo.",
   },
   {
-    imageUrl: "/images/7.jpg",
+    imageUrl: "/images/7.webp",
     price: "₹285",
     description: "Stylish suit and pant combo.",
   },
   {
-    imageUrl: "/images/8.jpg",
+    imageUrl: "/images/8.webp",
     price: "₹290",
     description: "Stylish suit and pant combo.",
   },
   {
-    imageUrl: "/images/9.jpg",
+    imageUrl: "/images/9.webp",
     price: "₹295",
     description: "Stylish suit and pant combo.",
   },
   {
-    imageUrl: "/images/10.jpg",
+    imageUrl: "/images/10.webp",
     price: "₹299",
     description: "Stylish suit and pant combo.",
   },
   {
-    imageUrl: "/images/11.jpg",
+    imageUrl: "/images/11.webp",
     price: "₹250",
     description: "Stylish suit and pant combo.",
   },
   {
-    imageUrl: "/images/12.jpg",
+    imageUrl: "/images/12.webp",
     price: "₹255",
     description: "Stylish suit and pant combo.",
   },
   {
-    imageUrl: "/images/13.jpg",
-    price: "₹260",
-    description: "Stylish suit and pant combo.",
-  },
-  {
-    imageUrl: "/images/14.jpg",
+    imageUrl: "/images/14.webp",
     price: "₹265",
     description: "Stylish suit and pant combo.",
   },
   {
-    imageUrl: "/images/15.jpg",
+    imageUrl: "/images/15.webp",
     price: "₹270",
     description: "Stylish suit and pant combo.",
   },
   {
-    imageUrl: "/images/16.jpg",
+    imageUrl: "/images/16.webp",
     price: "₹275",
     description: "Stylish suit and pant combo.",
   },
   {
-    imageUrl: "/images/17.jpg",
+    imageUrl: "/images/17.webp",
     price: "₹280",
     description: "Stylish suit and pant combo.",
   },
   {
-    imageUrl: "/images/18.jpg",
+    imageUrl: "/images/18.webp",
     price: "₹285",
     description: "Stylish suit and pant combo.",
   },
   {
-    imageUrl: "/images/19.jpg",
+    imageUrl: "/images/19.webp",
     price: "₹290",
     description: "Stylish suit and pant combo.",
   },
 ];
-
 
 const productListContainer = document.getElementById("products-list");
 
